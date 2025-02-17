@@ -5,23 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy - PoE 2 Companion</title>
     <style>
+        /* Base styles */
         body { 
             font-family: Arial, sans-serif; 
             max-width: 800px; 
             margin: 40px auto; 
             padding: 20px; 
             line-height: 1.6;
+            transition: background-color 0.3s, color 0.3s;
         }
-        h1, h2 { color: #333; }
+        h1, h2 { font-weight: bold; }
         h1 { font-size: 28px; }
         h2 { font-size: 22px; margin-top: 20px; }
-        p { font-size: 16px; }
+        p, li { font-size: 16px; }
         a { color: #0073e6; text-decoration: none; }
         a:hover { text-decoration: underline; }
+
+        /* Light mode (default) */
+        body {
+            background-color: #ffffff;
+            color: #333333;
+        }
+
+        /* Dark mode */
+        @media (prefers-color-scheme: dark) {
+            body {
+                background-color: #1e1e1e;
+                color: #dddddd;
+            }
+            a { color: #4da6ff; }
+        }
     </style>
 </head>
 <body>
-
     <h1>Privacy Policy</h1>
     <p><strong>Last updated: February 17, 2025</strong></p>
 
